@@ -1,0 +1,83 @@
+body{
+    background: url(../images/bg-desktop.svg) no-repeat center center;
+    background-color: var(--violet-primary);
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+}
+
+.conteiner .bg-desktop img{  
+    max-width: 210px;
+    margin: 50px 30px;
+}
+
+
+.conteiner main section{
+    display: flex;
+    padding: 40px;
+}
+
+.conteiner main section h2{
+    font-size: 40px;
+    margin: 20px;
+}
+
+.conteiner main section p{
+    margin: 30px;
+}
+
+.conteiner main section .btn{
+    margin: 10px 30px;
+    padding: 10px 50px;
+    border-radius: 25px;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.conteiner main section .btn:hover{
+    background-color: var(--soft-magenta-primary);
+}
+
+.conteiner main .info{
+    color: white;
+}
+
+.conteiner footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.conteiner footer a{
+    font-size: 25px;    
+    padding-left: 20px;
+    color: white;
+    transition: 0.5s;
+    
+}
+
+.conteiner footer .font-awesome{
+    width: 35px;
+    border-radius: 100%;
+}
+
+.conteiner footer a:hover{
+    color: var(--soft-magenta-primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
