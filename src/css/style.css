@@ -44,28 +44,40 @@ body{
     color: white;
 }
 
-.conteiner footer{
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-}
-
-.conteiner footer a{
+.conteiner footer .font-awesome{
     font-size: 25px;    
-    padding-left: 20px;
+    margin: 10px;
     color: white;
     transition: 0.5s;
-    
+    display: flex;
 }
 
-.conteiner footer .font-awesome{
-    width: 35px;
-    border-radius: 100%;
+.conteiner footer{
+    display: flex;
+    justify-content: end;
 }
+
+.conteiner footer .font-awesome a{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+}
+
+
 
 .conteiner footer a:hover{
     color: var(--soft-magenta-primary);
 }
+
+
+    
+
 
 
 
