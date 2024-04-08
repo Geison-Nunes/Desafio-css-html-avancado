@@ -23,12 +23,13 @@ body{
 }
 
 .conteiner main section p{
-    margin: 30px;
+    margin: 20px;
+    max-width: 700px;
 }
 
 .conteiner main section .btn{
-    margin: 10px 30px;
-    padding: 10px 50px;
+    margin-left: 20px;
+    padding: 10px 60px;
     border-radius: 25px;
     font-size: 1rem;
     background-color: white;
@@ -38,6 +39,7 @@ body{
 
 .conteiner main section .btn:hover{
     background-color: var(--soft-magenta-primary);
+    box-shadow: 0 0 20px 0.5px;
 }
 
 .conteiner main .info{
@@ -69,14 +71,10 @@ body{
     margin: 20px;
 }
 
-
-
 .conteiner footer a:hover{
     color: var(--soft-magenta-primary);
-}
-
-
     
+}
 
 
 

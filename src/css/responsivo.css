@@ -9,17 +9,30 @@
     }  
     
     .conteiner main section p{
-        font-size: 20px;
+        font-size: 13px;
         font-family: "Open Sans", sans-serif;
     }
+
     .conteiner main section{
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-    
+    .conteiner main section .btn{
+        font-size: 12px;
+        margin-right: 25px;
+    }
     .conteiner footer{
-        align-self: center;
+        justify-content: center;
+    }
+    .conteiner footer .font-awesome a{
+        padding: 15px;
+        width: 2px;
+        height: 2px;
+        margin: 5px;
+    }
+    .svg-inline--fa{
+        height: 0.5em;
     }
     .conteiner section img{
         width: 100%;
